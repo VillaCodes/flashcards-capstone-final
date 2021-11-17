@@ -21,7 +21,7 @@ function Study() {
             };
         }
         fetchData();
-    }, []);
+    }, [deckId]);
 
     function nextCard(index, total) {
         console.log(index);
